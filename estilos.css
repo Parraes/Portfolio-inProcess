@@ -1,0 +1,48 @@
+body{
+    background-color: darkcyan;
+}
+
+h1{
+    color:blue
+}
+
+.link{
+    color: red;
+}
+
+/*cuando el mouse pasa por encima*/
+.link:hover{ 
+    color: rgb(0, 0, 0);
+}
+
+
+
+/*cuando se hace click*/
+link:active{
+    color:yellow;
+}
+
+#show{
+    background: #09f;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: orange;
+}
+
+
+
+/*  Ha diferenccia de poner el outline a un border, es que no hace un alto de línea
+.link:hover{ 
+    outline : 10px solid red;
+}
+
+*/
